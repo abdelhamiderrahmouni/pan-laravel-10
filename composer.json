@@ -1,5 +1,5 @@
 {
-    "name": "panphp/pan",
+    "name": "abdelhamiderrahmouni/pan-laravel-10",
     "description": "A simple, lightweight, and privacy-focused product analytics php package.",
     "keywords": [
         "pan",
@@ -20,10 +20,8 @@
         }
     ],
     "require": {
-        "php": "^8.3.0"
-    },
-    "conflict": {
-        "laravel/framework": "<11.0.0"
+        "php": "^8.2.0",
+        "laravel/framework": "^10.0|^11.0"
     },
     "require-dev": {
         "orchestra/testbench": "^9.5.2",

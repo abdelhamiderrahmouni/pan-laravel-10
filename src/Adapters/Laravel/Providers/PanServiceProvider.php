@@ -84,6 +84,22 @@ final class PanServiceProvider extends ServiceProvider
     }
 
     /**
+     * Register migration paths to be published by the publish command.
+     *
+     * @param  array  $paths
+     * @param  mixed  $groups
+     * @return void
+     */
+    protected function publishesMigrations(array $paths, $groups = null)
+    {
+        $this->publishes($paths, $groups);
+
+        if ($this->app->config->get('database.migrations.update_date_on_publish', false)) {
+            static::$publishableMigrationPaths = array_unique(array_merge(static::$publishableMigrationPaths, array_keys($paths)));
+        }
+    }
+
+    /**
      * Register the package's commands.
      */
     private function registerCommands(): void
