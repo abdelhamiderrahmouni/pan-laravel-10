@@ -1,10 +1,10 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/panphp/pan/main/docs/banner.png" width="100%" alt="Pan">
+    <img src="https://raw.githubusercontent.com/abdelhamiderrahmouni/pan-laravel-10/main/docs/banner.png" width="100%" alt="Pan">
     <p align="center">
-        <a href="https://github.com/panphp/pan/actions"><img alt="GitHub Workflow Status (main)" src="https://github.com/panphp/pan/actions/workflows/tests.yml/badge.svg"></a>
-        <a href="https://packagist.org/packages/panphp/pan"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/panphp/pan"></a>
-        <a href="https://packagist.org/packages/panphp/pan"><img alt="Latest Version" src="https://img.shields.io/packagist/v/panphp/pan"></a>
-        <a href="https://packagist.org/packages/panphp/pan"><img alt="License" src="https://img.shields.io/packagist/l/panphp/pan"></a>
+        <a href="https://github.com/abdelhamiderrahmouni/pan-laravel-10/actions"><img alt="GitHub Workflow Status (main)" src="https://github.com/abdelhamiderrahmouni/pan-laravel-10/actions/workflows/tests.yml/badge.svg"></a>
+        <a href="https://packagist.org/packages/abdelhamiderrahmouni/pan-laravel-10"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/abdelhamiderrahmouni/pan-laravel-10"></a>
+        <a href="https://packagist.org/packages/abdelhamiderrahmouni/pan-laravel-10"><img alt="Latest Version" src="https://img.shields.io/packagist/v/abdelhamiderrahmouni/pan-laravel-10"></a>
+        <a href="https://packagist.org/packages/abdelhamiderrahmouni/pan-laravel-10"><img alt="License" src="https://img.shields.io/packagist/l/abdelhamiderrahmouni/pan-laravel-10"></a>
     </p>
 </p>
 
@@ -15,7 +15,7 @@
 At the time of writing, Pan tracks only the following events: impressions, hovers, and clicks. It does not collect any personal information, such as IP addresses, user agents, or any data that could be used to identify a user.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/panphp/pan/main/docs/banner-command-with-background.png" width="100%" alt="Pan">
+    <img src="https://raw.githubusercontent.com/abdelhamiderrahmouni/pan-laravel-10/main/docs/banner-command-with-background.png" width="100%" alt="Pan">
 </p>
 
 **Use cases:**
@@ -35,7 +35,7 @@ Visualize your analytics is as simple as typing `php artisan pan` in your termin
 You may use [Composer](https://getcomposer.org) to require Pan into your PHP project:
 
 ```bash
-composer require panphp/pan
+composer require abdelhamiderrahmouni/pan-laravel-10
 ```
 
 After, you may install Pan into your Laravel project using the following command:
