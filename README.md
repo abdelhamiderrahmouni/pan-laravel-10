@@ -10,6 +10,9 @@
 
 ---
 
+> [!WARNING]  
+> This is a fork of [the original package](https://github.com/panphp/pan) that I modified to add support to laravel 10 apps.
+
 **Pan is a lightweight and privacy-focused PHP product analytics library**. It’s designed as a very simple package that you can install via `composer require` and start tracking your pages or components with **a simple `data-pan` attribute**.
 
 At the time of writing, Pan tracks only the following events: impressions, hovers, and clicks. It does not collect any personal information, such as IP addresses, user agents, or any data that could be used to identify a user.
