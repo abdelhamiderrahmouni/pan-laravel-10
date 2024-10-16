@@ -1,6 +1,6 @@
 {
     "name": "abdelhamiderrahmouni/pan-laravel-10",
-    "description": "A simple, lightweight, and privacy-focused product analytics php package.",
+    "description": "[A fork to support Laravel 10] A simple, lightweight, and privacy-focused product analytics php package.",
     "keywords": [
         "pan",
         "php",
@@ -17,6 +17,10 @@
         {
             "name": "David Hill",
             "email": "david@laravel.com"
+        },
+        {
+            "name": "Abdelhamid Errahmouni",
+            "email": "abdelhamiderrahmouni@gmail.com"
         }
     ],
     "require": {
