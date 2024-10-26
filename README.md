@@ -91,10 +91,18 @@ Alternatively, if you want to allow dynamic analytics, you may use the `PanConfi
 PanConfiguration::maxAnalytics(10000);
 ```
 
-Finally, if you want to have unlimited analytics records, you may use the `Pan::unlimitedAnalytics` method:
+If you want to have unlimited analytics records, you may use the `Pan::unlimitedAnalytics` method:
 
 ```php
 PanConfiguration::unlimitedAnalytics();
+```
+
+## Configure the route prefix
+
+By default, Pan's route prefix is `/pan`, but you may change it by using the `PanConfiguration::routePrefix` method:
+
+```php
+PanConfiguration::routePrefix('internal-analytics');
 ```
 
 ## Flush your product analytics
@@ -104,6 +112,8 @@ To flush your product analytics, you may use the `pan:flush` Artisan command:
 ```bash
 php artisan pan:flush
 ```
+
+With that set the url to track the analytics will be `/new-pan/events`.
 
 ## How does it work?
 

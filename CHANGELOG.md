@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## v0.1.7 - 2024-10-26
+
+-   Removes `@internal` annotation from the `PanConfiguration` class
+
+## v0.1.6 - 2024-10-26
+
+-   Adds `routePrefix` method to the configuration class
+
+## v0.1.5 - 2024-10-20
+
+-   Fixes wrong internal cast causing a runtime error
+
 ## v0.1.4 - 2024-10-17
 
 -   Hides elements no longer counts for impressions
