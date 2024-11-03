@@ -58,6 +58,9 @@ Finally, you may start tracking your pages or components adding the `data-pan` a
 </div>
 ```
 
+> [!IMPORTANT]  
+> Event names must only contain letters, numbers, dashes, and underscores.
+
 ## Visualize your product analytics
 
 To visualize your product analytics, you may use the `pan` Artisan command:
@@ -105,6 +108,8 @@ By default, Pan's route prefix is `/pan`, but you may change it by using the `Pa
 PanConfiguration::routePrefix('internal-analytics');
 ```
 
+With that set the url to track the analytics will be `/internal-analytics/events`.
+
 ## Flush your product analytics
 
 To flush your product analytics, you may use the `pan:flush` Artisan command:
@@ -112,8 +117,6 @@ To flush your product analytics, you may use the `pan:flush` Artisan command:
 ```bash
 php artisan pan:flush
 ```
-
-With that set the url to track the analytics will be `/new-pan/events`.
 
 ## How does it work?
 
